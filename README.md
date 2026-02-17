@@ -4,7 +4,7 @@ A local email composer built with **Wails + React + Lexical**. Write and send em
 
 > Built to learn — Wails, Lexical rich text editing, SSH tunneling, and Go/React integration.
 
----
+
 
 ## Stack
 
@@ -15,7 +15,7 @@ A local email composer built with **Wails + React + Lexical**. Write and send em
 | Backend | Go |
 | Transport | SSH tunnel → your remote API |
 
----
+
 
 ## How it works
 
@@ -31,7 +31,7 @@ AWS SES
 
 React calls Go functions directly via Wails bindings — no ports, no CORS, no fetch.
 
----
+
 
 ## Development setup
 
@@ -74,7 +74,7 @@ wails build
 
 Outputs a single native binary — no runtime dependencies.
 
----
+
 
 ## Project structure
 
